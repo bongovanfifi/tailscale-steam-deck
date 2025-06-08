@@ -1,4 +1,4 @@
-# Install Tailscale on the Steam Deck.
+# Install Tailscale on the Steam Deck
 
 I installed [with these instructions from Tailscale](https://tailscale.com/blog/steam-deck) in the section `systemd-run`, starting `The easiest way to hoist this service into systemd would be to use systemd-run systemd-run lets you create one-off systemd jobs...
 

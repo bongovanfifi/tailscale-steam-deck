@@ -1,8 +1,8 @@
 # Install Tailscale on the Steam Deck
 
-I installed [with these instructions from Tailscale](https://tailscale.com/blog/steam-deck) in the section `systemd-run`, starting `The easiest way to hoist this service into systemd would be to use systemd-run systemd-run lets you create one-off systemd jobs...
+I installed [with these instructions from Tailscale](https://tailscale.com/blog/steam-deck) in the section `systemd-run`, starting "The easiest way to hoist this service into systemd would be to use systemd-run systemd-run lets you create one-off systemd jobs..."
 
-The paths used in the official post are inconsistent, after `.local`, `share` is added sometimes. Here are all the scripts but correct and consolidated. I'll write some script that does all the install, adds the alias, creates a script in the home folder ~eventually. 
+The paths used in the official post are inconsistent, after `.local`, `share` is added sometimes. Here are all the scripts but correct and consolidated. I'll write some script that does all the install, adds the alias, creates a script in the home folder ~eventually. I should also set up the blog again, make this a post.
 
 ```
 mkdir -p ~/.local/tailscale/steamos
